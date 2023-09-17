@@ -24,10 +24,6 @@
     padding-bottom: 6rem;
 }
 
-.bg-icon {
-    background: url(../img/bg-icon.png) center center repeat;
-    background-size: contain;
-}
 #white h1{
     font-family: "Great Vibes", cursive;
     font-size: 60px;
