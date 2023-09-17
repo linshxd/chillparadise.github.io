@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3CB815;
+    --primary: #159947;
     --secondary: #F65005;
     --light: #F7F8FC;
     --dark: #111111;
@@ -28,7 +28,21 @@
     background: url(../img/bg-icon.png) center center repeat;
     background-size: contain;
 }
-
+#white h1{
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+    color: #d3ff6b;
+    font-weight: 800;
+    text-align: center;
+}
+#white p{
+    font-size: 20px;
+    color: #c8a97e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", cursive;
+    text-align: center;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -177,7 +191,7 @@
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 450px;
+        min-height: 850px;
     }
     
     #header-carousel .carousel-item img {
